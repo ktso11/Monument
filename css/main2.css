@@ -1,0 +1,400 @@
+body {
+  font-family: lato;
+  font-size: 12px;
+  font-weight:400;
+  color: #526975;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 0;
+}
+
+
+
+input, textarea {
+  text-transform: uppercase;
+  color: #526975;
+/*  padding: 1em 1em;*/
+}
+
+
+/*HEADER STYLING */
+#hamburger {
+  display: none;
+  color: white;
+
+}
+
+header {
+/*  margin: 0 50%;*/
+  background-image: url("../images/home_header_bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1.618em;
+  height: 40em;
+}
+
+header nav {
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 7em;
+  background-color: white;
+  padding-bottom: .5em;
+  position: fixed;
+  width: 100%;
+}
+
+/*MAIN STYLING*/
+
+
+
+.article img {
+  width: 96%;
+  height: 20em;
+}
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2em;
+  width:90%;
+  margin: 1.618em 1.618em;
+}
+
+.article a {
+  border: .2em solid #526975;
+  text-transform: uppercase;
+  color: #526975;
+  font-size: .8em;
+  font-weight: 1000;
+  padding: .5em 1em;
+}
+
+.article p {
+  line-height: 1.618em;
+  margin: 1.618em;
+}
+
+.magazine {
+  background-color: #BCF1F7;
+  margin: 7em 0;
+  padding: 5em 6em;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 55em;
+  width: 60em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.gallery img{
+  margin: 1em 0em;
+  width: 31%;
+}
+
+main {
+
+  text-align: center;
+  margin: 0 auto;
+}
+
+main img {
+  width: 100%;
+}
+a:link {
+  color: #526975;
+}
+a:hover {
+  color:  black;
+}
+
+/*FOOTER STYLING*/
+
+footer {
+  text-align: center;
+  padding-top: 1.618em;
+  margin-top: 1.618em;
+  background-color: #BCF1F7;
+  width: 100%;
+}
+
+footer a {
+  text-transform: uppercase;
+  color: #526975;
+}
+
+footer form {
+  margin-top: 1.618em;
+  padding-bottom: 1.618em;
+}
+
+#copyright {
+border-top: 1.618px solid #526975;
+padding-top: 1.618em ;
+padding-bottom: 1.618em;
+}
+
+#submitButton {
+  background: #BCF1F7;
+  border:1px solid black;
+
+}
+
+#submitButton:hover {
+  background: #526975;
+  color: white;
+}
+
+.socialMedia {
+  padding-top: 1.618em;
+  letter-spacing: 1.618em;
+}
+
+/*FORM STYLING*/
+
+.leaveComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80% ;
+  margin: 0 auto;
+}
+
+.leaveComment textarea {
+  border: .2em solid #526975;
+  height: 10em;
+  width: 99%
+}
+
+.nameEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.nameEmail input{
+  width: 30%;
+  border: .2em solid #526975;
+  margin-bottom: 1em;
+  height: 3em;
+}
+
+#formbutton {
+  width: 100%;
+  border: .2em solid #526975;
+  margin-top: 1em;
+  height: 3em;
+  color: #526975;
+}
+
+
+/*TEXT STYLING*/
+
+nav, h1, h2, h3, h4, footer {
+  font-family: 'Raleway';
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .8em;
+  color: white;
+  margin-top: 10em;
+}
+
+
+h2 {
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  word-spacing: .1em;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #91B9CF;
+}
+
+
+
+/*RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 650px) {
+
+body{
+  font-size: 14px;
+}
+
+main {
+  width: 100%;
+}
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2em;
+  width:90%;
+}
+
+.article img {
+  width: 60%;
+  height: auto;
+  margin-top: 3em;
+}
+
+.magazine {
+  margin: 5em 0;
+  padding: 4em 2em;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 40em;
+  width: 40em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.nameEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nameEmail input{
+  width: 100%;
+}
+
+footer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer form input {
+  width: 60%;
+  margin: .5em;
+}
+
+#formbutton {
+  width: 100%;
+  border: .2em solid #526975;
+  color: white;
+  background-color: #526975;
+}
+}
+
+@media screen and (max-width: 420px) {
+nav, .aside {
+  display: none;
+}
+
+#hamburger {
+  display: block;
+  text-align: left;
+  font-size: 2em;
+  margin: 0 .5em;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack:start;
+      -ms-flex-pack:start;
+          justify-content:flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 60em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery img{
+  margin: .5em 0em;
+  width: 48%;
+}
+}
+
