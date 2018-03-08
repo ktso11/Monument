@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
   <title>Monument Landing Page</title>
-  <link rel="stylesheet" href="css/main2.css">
+  <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
+
 </head>
 <body>
 
@@ -82,19 +83,34 @@
 
   <!-- FORM STARTS HERE -->
   <h3>Get in touch</h3>
-  <form class="leaveComment" method="post" action"#">
+  <form class="leaveComment">
   <label for="contactForm"> <input type="hidden" name="csrf">
     <div class="nameEmail">
-      <input type="name" name="contactForm" value="name">
-      <input type="email" name="contactForm" value="email">
-      <input type="subject" name="contactForm" value="subject">
+        <!-- <div class="forValidate"> -->
+          <input type="name"  name="contactForm" placeholder="name">
+          <p class="inputField"></p>
+<!--         </div>
+        <div class="forValidate"> -->
+          <input type="email"  name="contactForm" placeholder="email">
+          <p class="inputField"></p>
+        <!-- </div> -->
+        <!-- <div class="forValidate"> -->
+          <input type="subject"  name="contactForm" placeholder="subject">
+          <p class="inputField"></p>
+        <!-- </div> -->
     </div>
-      <textarea name="contactForm" value="message">message</textarea>
+        <!-- <div class="forValidate"> -->
+          <textarea name="contactForm"  placeholder="message"></textarea>
+          <p class="inputField"></p>
+        <!-- </div> -->
       <input type="submit" id="formbutton" name="contactForm" value="submit">
   </label>
   </form>
 <!-- FORM ENDS HERE -->
 </main>
+
+
+
 
 <footer>
   <div class="socialMedia">
@@ -108,6 +124,7 @@
   </form>
   <p id="copyright">© Katie So</p>
 </footer>
-
+  <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
